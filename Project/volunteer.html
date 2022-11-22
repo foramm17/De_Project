@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #f9cdcd;">
+    <div class="py-2"></div>
+    <div class="col-md-12">
+        <h2 class="font-weight-bold m-2">Volunteer Registration Form</h2>
+    </div>
+    <div class="py-2"></div>
+    <div class="col-md-12">
+        <h4 class="text-left m-2">Personal Information:</h4>
+        <hr class="border border-dark border-1" />
+    </div>
+
+    <div id="horizontal-line"></div>
+    <form class="row g-3">
+
+        <div class="col-md-6">
+            <label for="inputname" class="form-label">Name</label>
+            <input type="text" class="border border-dark p-2 form-control" placeholder="First name"
+                aria-label="First name">
+        </div>
+        <div class="col-md-6">
+            <label for="inputname" class="form-label">Last name</label>
+            <input type="text" class="border border-dark form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+        </div>
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="border border-dark form-control" id="inputEmail4">
+
+        </div>
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Confirm Email</label>
+            <input type="email" class="border border-dark form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="border border-dark form-control" id="inputPassword4">
+        </div>
+        <div class="col-md-6">
+            <label for="inputBirthDate" class="form-label">Date Of Birth</label>
+            <input type="text" class="border border-dark form-control" placeholder="DD/MM/YYYY" id="inputBirthDate">
+        </div>
+        <div class="col">
+            <label for="inputcontactNo." class="form-label">Contact Number</label>
+            <input type="text" class="border border-dark form-control" id="inputcontactNo.">
+        </div>
+        <div class="col">
+            <label for="inputcontactNo." class="form-label">Another Contact Number</label>
+            <input type="text" class="border border-dark form-control" id="inputcontactNo.">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="border border-dark form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="border border-dark form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="border border-dark form-select">
+                <option selected>Choose...</option>
+                <option>Andhra Pradesh</option>
+                <option>Bihar</option>
+                <option>Delhi</option>
+                <option>Gujrat</option>
+                <option>Jharkhand</option>
+                <option>Kerala</option>
+                <option>Madhya Pradesh</option>
+                <option>Punjab</option>
+                <option>Rajasthan</option>
+                <option>Tamil nadu</option>
+                <option>Uttar Prdesh</option>
+                <option>West bengal</option>
+
+            </select>
+        </div>
+
+        <div class="col-12">
+            <hr class="border border-dark border-1" />
+            <h4 class="taxt-left m-2">Preferences in Area Of Volunteering:</h4>
+        </div>
+        <div class="col-12">
+            <h4 class="text-left m-2">What can you help with?</h4>
+            <div class="col-md-2">
+                <input class="m-2" type="checkbox" name="flexcheckboxDefault" value="option1" id="flexcheckboxDefault" checked>
+                <label class="form-check-label" for="flexgridboxDefault1">
+                    Humane Society
+                </label>
+            </div>
+            <div class="col-md-2">
+                <input class="m-2" type="checkbox" name="flexcheckboxDefault" value="option2" id="flexcheckboxoDefault">
+                <label class="form-check-label" for="flexgridboxboxDefault2">
+                    Community Garden
+                </label>
+            </div>
+            <div class="col-md-2">
+                <input class="m-2" type="checkbox" name="flexcheckboxDefault" value="option3" id="flexcheckboxDefault" checked>
+                <label class="form-check-label" for="flexgridboxDefault2">
+                    Tutoring
+                </label>
+            </div>
+            <div class="col-md-2">
+                <input class="m-2" type="checkbox" name="flexcheckboxDefault" value="option4" id="flexcheckboxDefault">
+                <label class="form-check-label" for="flexgridboxDefault2">
+                    Nursing Home
+                </label>
+            </div>
+            <div class="col-md-2">
+                <input class="m-2" type="checkbox" name="flexcheckboxDefault" value="option5" id="flexcheckboxDefault">
+                <label class="form-check-label" for="flexgridboxDefault2">
+                    Orphanage Home
+                </label>
+            </div>
+            <div class="col-md-2">
+                <input class="m-2" type="checkbox" name="flexcheckboxDefault" value="option6" id="flexcheckboxDefault">
+                <label class="form-check-label" for="flexgridboxDefault2">
+                    Food Bank
+                </label>
+            </div>
+
+            <div class="col-12">
+                <h5 class="text-left m-2">How many hours per a week would you be able to dedicate to your chosen
+                    program?</h5>
+            </div>
+            <div class="col-md-2 form-check-inline">
+                <input class="m-2" type="radio" name="inlineRadioDefault" id="inlineRadioDefault2" checked>
+                <label class="form-check-label" for="inlineRadioDefault1">
+                    <3 hours </label>
+            </div>
+            <div class="col-md-2 form-check-inline">
+                <input class="m-2" type="radio" name="inlineRadioDefault" id="inlineRadioDefault2">
+                <label class="form-check-label" for="inlineRadioDefault2">
+                    3-6 hours
+                </label>
+            </div>
+            <div class="col-md-2 form-check-inline">
+                <input class="m-2" type="radio" name="inlineRadioDefault" id="inlineRadioDefault2">
+                <label class="form-check-label" for="inlineRadioDefault3">
+                    6-9 hours
+                </label>
+            </div>
+            <div class="col-md-2 form-check-inline ">
+                <input class="m-2" type="radio" name="inlineRadioDefault" id="inlineRadioDefault2">
+                <label class="form-check-label" for="inlineRadioDefault4">
+                    9 or more
+                </label>
+            </div>
+            <div class="sb-3 col-md-6 py-2 m-2">
+                <label for="exampleFormControlTextarea1" class="form-label">Why do you want to join our
+                    campaign?</label>
+                <textarea class="border border-dark form-control" placeholder="Type Message..."
+                    id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="col-12 py-2 m-2">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
+                </div>
+            </div>
+            <div class="col-12 py-2 m-2">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+    </form>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
